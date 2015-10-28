@@ -11,7 +11,9 @@ console.log(ng)
 				'</li>' +
 				'</ul>' +
 				'<input #textbox (keyup)="doneTyping($event)">' +
-				'<button (click)="addTodo(textbox.value)">Add Todo</button>',
+				'<button (click)="addTodo(textbox.value)">Add Todo</button>' +
+                '<br><br><br>' +
+                '<div>{{ todos | json }}</div>',
             directives: [ng.NgFor]
 		})
 		.Class({
@@ -23,6 +25,7 @@ console.log(ng)
         		};
 
                 this.removeToDo = function (index) {
+                    console.log(index);
                     this.todos.splice(index, 1);
                 };
 
