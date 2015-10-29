@@ -1,4 +1,4 @@
 # Angular2-Demo
 Basic Angular 2 Demo
 
-> Toying around with Angular 2
+> Getting a handle on Angular 2 
