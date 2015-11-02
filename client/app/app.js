@@ -1,4 +1,6 @@
-(function() {
+'use strict';
+
+;(function() {
 
 console.log(ng)
 	var AppComponent = ng
@@ -40,6 +42,8 @@ console.log(ng)
 		});
 
 
+	// Bootstrap Angular 2
+	// To do: Create the masterView here
 	document.addEventListener('DOMContentLoaded', function() {
 		ng.bootstrap(AppComponent);
 	});
