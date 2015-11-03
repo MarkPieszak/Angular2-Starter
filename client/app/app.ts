@@ -1,5 +1,6 @@
 import {Component, bootstrap, NgFor, NgIf, CORE_DIRECTIVES} from 'angular2/angular2';
-import {Hero} from './hero'
+import {Hero} from './hero';
+import {InnerDirective} from './innerDirective';
 
 @Component({
     selector: 'my-app',
@@ -16,8 +17,11 @@ import {Hero} from './hero'
         </ul>
 
         <p *ng-if="heroes.length > 3">There are many heroes!</p>
+
+        <br><br>
+        <inner-dir></inner-dir>
     `,
-    directives: [NgFor, NgIf, CORE_DIRECTIVES]
+    directives: [NgFor, NgIf, CORE_DIRECTIVES, InnerDirective]
 })
 export class AppComponent {
 
@@ -31,7 +35,8 @@ export class AppComponent {
     ];
 
     myHero = this.heroes[0].name;
-
 }
+
+
 
 bootstrap(AppComponent);

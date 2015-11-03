@@ -7,3 +7,5 @@ To do:
 
 * ~Install Typescript~
 * ~Install SystemJS~
+* Test RouterOutlet system
+* Test RouterLink system
