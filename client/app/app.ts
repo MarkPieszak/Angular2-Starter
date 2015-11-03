@@ -1,22 +1,36 @@
-import {Component, bootstrap} from 'angular2/angular2';
+import {Component, bootstrap, NgFor, NgIf, CORE_DIRECTIVES} from 'angular2/angular2';
+import {Hero} from './hero'
 
 @Component({
     selector: 'my-app',
     template: `
         <h1>{{title}}</h1>
         <h2>My favorite hero is: {{myHero}}</h2>
-        <br><br>
 
-        Testing!
-    `
+        <p>Heroes:</p>
+
+        <ul>
+            <li *ng-for="#hero of heroes">
+                {{ hero.name }}
+            </li>
+        </ul>
+
+        <p *ng-if="heroes.length > 3">There are many heroes!</p>
+    `,
+    directives: [NgFor, NgIf, CORE_DIRECTIVES]
 })
 export class AppComponent {
-    title : string;
-    myHero : string;
-    constructor() {
-        this.title = 'Tour of Heroes';
-        this.myHero = 'Windstorm';
-    }
+
+    title = 'Tour of Heroes';
+
+    heroes = [
+        new Hero(1, 'Windstorm'),
+        new Hero(13, 'Bombasto'),
+        new Hero(15, 'Magneta'),
+        new Hero(20, 'Tornado')
+    ];
+
+    myHero = this.heroes[0].name;
 
 }
 
