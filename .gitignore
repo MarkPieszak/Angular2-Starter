@@ -1,6 +1,9 @@
 client/app/*.js
 client/app/*.map
 
+client/app/**/*.js
+client/app/**/*.map
+
 node_modules
 public
 .tmp
