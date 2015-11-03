@@ -21,7 +21,7 @@
         "!node_modules/**"
     ],
     "files": [
-        "edit/edit.ts",
-        "test.ts"
+        "app.ts",
+        "edit/edit.ts"
     ]
 }
