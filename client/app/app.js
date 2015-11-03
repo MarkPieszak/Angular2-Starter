@@ -10,15 +10,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var angular2_1 = require('angular2/angular2');
 var AppComponent = (function () {
     function AppComponent() {
+        this.title = 'Tour of Heroes';
+        this.myHero = 'Windstorm';
     }
     AppComponent = __decorate([
         angular2_1.Component({
             selector: 'my-app',
-            template: '<h1>My First Angular 2 App</h1><br>'
+            template: "\n        <h1>{{title}}</h1>\n        <h2>My favorite hero is: {{myHero}}</h2>\n    "
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);
     return AppComponent;
 })();
+exports.AppComponent = AppComponent;
 angular2_1.bootstrap(AppComponent);
 //# sourceMappingURL=app.js.map
