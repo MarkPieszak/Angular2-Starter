@@ -1,6 +1,7 @@
-node_modules
 client/app/*.js
 client/app/*.map
+
+node_modules
 public
 .tmp
 .sass-cache
