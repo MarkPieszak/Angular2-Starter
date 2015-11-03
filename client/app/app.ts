@@ -5,6 +5,9 @@ import {Component, bootstrap} from 'angular2/angular2';
     template: `
         <h1>{{title}}</h1>
         <h2>My favorite hero is: {{myHero}}</h2>
+        <br><br>
+
+        Testing!
     `
 })
 export class AppComponent {

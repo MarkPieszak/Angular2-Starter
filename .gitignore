@@ -1,8 +1,12 @@
+client/app/app.js
+
 client/app/*.js
 client/app/*.map
 
 client/app/**/*.js
 client/app/**/*.map
+
+
 
 node_modules
 public
@@ -57,5 +61,3 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
-client/app/app.js
-client/app/app.js
