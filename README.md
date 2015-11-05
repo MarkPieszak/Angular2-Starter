@@ -5,7 +5,8 @@ Basic Angular 2 Demo
 
 To do:
 
+* Create RouterOutlet / RouterLink system
+
 * ~Install Typescript~
 * ~Install SystemJS~
-* Test RouterOutlet system
-* Test RouterLink system
+* ~Finish build system (Auto compile TS to JS)~
