@@ -1,4 +1,5 @@
-module.exports = function(grunt) {
+module.exports = function (grunt) {
+
   grunt.initConfig({
     ts: {
       default : {
@@ -6,6 +7,8 @@ module.exports = function(grunt) {
       }
     }
   });
+
   grunt.loadNpmTasks("grunt-ts");
   grunt.registerTask("default", ["ts"]);
+
 };
