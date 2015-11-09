@@ -1,7 +1,8 @@
-# Angular2-Demo
-Basic Angular 2 Demo
+# Angular 2 minimal starter site / template
 
 > Getting a handle on Angular 2
+
+### Under Construction still
 
 To do:
 
