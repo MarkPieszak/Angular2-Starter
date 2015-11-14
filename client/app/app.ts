@@ -2,6 +2,8 @@ import {Component, bootstrap, NgFor, NgIf, CORE_DIRECTIVES} from 'angular2/angul
 import {Hero} from './hero';
 import {InnerDirective} from './innerDirective';
 
+
+// to do : move to separate class
 @Component({
     selector: 'my-app',
     template: `
