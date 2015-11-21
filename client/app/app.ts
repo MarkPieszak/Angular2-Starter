@@ -3,7 +3,7 @@ import {Hero} from './hero';
 import {InnerDirective} from './innerDirective';
 
 
-// to do : move to separate class
+// to do : move to separate Class
 @Component({
     selector: 'my-app',
     template: `
