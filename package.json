@@ -1,7 +1,7 @@
 {
   "name": "Angular2-Demo",
   "version": "1.0.0",
-  "description": "",
+  "description": "> Starter Demo for Angular 2",
   "main": "index.js",
   "dependencies": {
     "angular2": "2.0.0-alpha.44",

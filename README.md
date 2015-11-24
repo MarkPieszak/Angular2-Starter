@@ -7,7 +7,8 @@
 * Clone repo
 * Cd into directory
 * Run `npm install`
-* Open `client/index.html`
+* Install live-server w/ npm `install -g live-server`
+* Run the app with `live-server` in CLI
 
 ### Under Construction still
 
