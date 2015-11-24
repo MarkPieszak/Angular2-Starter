@@ -1,6 +1,13 @@
 # Angular 2 minimal starter site / template
 
-> Getting a handle on Angular 2
+> Starter Demo for Angular 2
+
+### To get Started:
+
+* Clone repo
+* Cd into directory
+* Run `npm install`
+* Open `client/index.html`
 
 ### Under Construction still
 
