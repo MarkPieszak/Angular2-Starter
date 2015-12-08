@@ -2,7 +2,7 @@
 
 > Starter Demo for Angular 2
 
-### To get Started:
+### To get Started: 
 
 * Clone repo
 * Cd into directory
@@ -18,3 +18,4 @@ To do:
 * ~Install Typescript~
 * ~Install SystemJS~
 * ~Finish build system (Auto compile TS to JS)~
+
