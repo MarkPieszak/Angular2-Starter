@@ -8,6 +8,8 @@ module.exports = function (grunt) {
     }
   });
 
+//add watch Etc tasks
+
   grunt.loadNpmTasks("grunt-ts");
   grunt.registerTask("default", ["ts"]);
 
