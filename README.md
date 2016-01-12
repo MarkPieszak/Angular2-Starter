@@ -1,6 +1,6 @@
 # Angular 2 minimal starter site / template
 
-> Starter Demo for Angular 2
+> Starter Demo for Angular 2 : A "get up and running" Angular 2 project.
 
 ### To get Started: 
 
@@ -12,7 +12,7 @@
 
 ### Under Construction still
 
-To do:
+Things coming soon:
 
 * Create RouterOutlet / RouterLink system
 * ~Install Typescript~
