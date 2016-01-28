@@ -15,6 +15,8 @@
 Things coming soon:
 
 * Create RouterOutlet / RouterLink system
+* Create Basic login functionality/components
+* Create Basic Admin functionality/components
 * ~Install Typescript~
 * ~Install SystemJS~
 * ~Finish build system (Auto compile TS to JS)~
